@@ -11,12 +11,4 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
-// Route::get('/', function () {
-//     return view('SearchPortal');
-// });
-
 Route::get('/', 'AppController@index');
