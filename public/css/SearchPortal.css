@@ -1,0 +1,126 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    line-height: 10px;
+    font-size: 1.3rem;
+}
+
+.title {
+    color: white;
+    background-color: #3f51b5;
+    padding-left: 15px;
+    text-align: left;
+    height: 64px;
+    line-height: 64px;
+    font-size: 1.6rem;             
+}
+
+.form-group {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    text-align: left;        
+}
+.form-group ::placeholder { 
+    font: 18px black solid;
+    position: relative;
+}
+
+.form-control {
+    outline: 0;
+    height: 30px;
+    max-height: 100%;
+    max-width: 50%;
+    border-radius:2px 0 0 2px;	
+    background:#fff;
+    background-image: linear-gradient(0deg,#3f51b5 2px,rgba(0,150,136,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0) !important;
+    padding-left: 20px;
+}
+
+.caption {
+    font-weight: bold;
+}
+
+.text {
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.link {
+    display: flex;
+}
+
+.link a {
+    color: #3f51b5;
+}
+
+.result {
+    color: darkgray;
+    font-size: 1.3rem; 
+    padding-left: 50px;
+}
+
+.description {
+    padding: 0px 50px;
+    height: 50px;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.description li {
+    list-style:  none;
+    margin:  0;
+    padding: 0;
+}
+ 
+ 
+.description li:before {
+    content:  "";
+    width:  15px;
+    height:  15px;
+    display:  inline-block;
+    background-color: #3f51b5;
+    position:  relative;
+    top: 1px;
+    margin-right: 10px;
+}
+
+.exception {
+    padding: 0px 50px;
+    font-weight: bold;
+}
+
+.exception p:nth-child(1) {
+    color: darkgray;
+    margin-bottom: 50px;
+}
+
+.exception ul {
+    height: 50px;
+    line-height: 40px;
+}
+
+.exception li {
+    list-style:  none;
+    margin:  0;
+    padding: 0;
+}
+ 
+.exception li:before {
+    content:  "";
+    width:  10px;
+    height:  10px;
+    display:  inline-block;
+    background-color: #3f51b5;
+    border-radius: 5px;
+    position:  relative;
+    top: -1px;
+    margin-right: 10px;
+}
